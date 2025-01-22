@@ -1,0 +1,419 @@
+.header{  padding:10px 8%;
+  width:100%;
+  height:70vh;
+background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://assets.nflxext.com/ffe/siteui/vlv3/154a9550-ce07-4e28-819c-63185dd849f8/web/IN-en-20250106-TRIFECTA-perspective_27b02e7c-f668-4639-9e82-1a5485084b2a_large.jpg");
+  background-size:cover;
+  background-position:center;
+  position:relative;
+  }
+      .logo{
+      width:100px;
+      cursor:pointer;
+      }
+    nav{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        padding:10px 0;
+    }
+         nav button{
+      border:0;
+      outline:0;
+      background:#db0001;
+      color:#fff;
+      padding:7px 20px;
+      font-size:12px;
+      border-radius:4px;
+      margin-left:10px;
+      cursor:pointer;
+      width:100px;
+      }
+
+       .language-btn{
+      display:inline-flex;
+      align-items:center;
+      background:transparent ;
+      border:1px solid #fff transparent;
+      padding:7px 10px;
+
+         }
+  }
+    .header-content{position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+  margin-top:400px;}
+
+    .header-content h1{
+      font-size:70px;
+      line-height:80px;
+      font-weight:800;
+      max-width:950px;
+      text-align:center;
+  }
+     .header-content h3{
+         font-size:20px;
+      font-weight:400;
+      margin-bottom:20px;
+      text-align:center;
+  }
+.header-content p{
+  text-align:center;
+}
+.email-signup{
+  background:#00000067;
+  color:#fff;
+  border-radius:4px;
+  border:1px solid #676767;
+  gap:6px;
+  display:flex;
+  align-items:center;
+  margin:30px auto;
+  overflow:hidden;
+  max-width:650px;
+
+
+}
+
+      .email-signup input{
+      background:transparent;
+      flex:1;
+      border:0;
+      outline:0;
+      margin-left:30px;
+     width:50px;
+    font-size:16px;
+    color:#fff;
+}
+.email-signup input::placeholder{color:#fffffb7}
+  .email-signup button{
+      background:#db0001;
+      border:0;
+      outline:0;
+      color:#fff;
+      font-size:16px;
+      cursor:pointer;
+      padding:15px 30px;
+
+  }
+
+  .faq{
+    padding:10px 12%;
+    text-align:left;
+    font-size:18px;
+
+}
+.faq h2{
+    font-weight:400;
+    font-size:40px;
+}
+.faq label{
+    width:500px;
+    height:20px:
+    text-align:left;
+}
+.accordion{
+    margin:60px auto;
+    width:100 px;
+    max-width:750px;
+    }
+.accordion li{
+    list-style:none;
+    width:100px;
+    padding:5px;
+
+    }
+.accordion li label{  display:block;
+align-items:center;
+padding:20px;
+font-size:18px;
+font-weight:500;
+background:3303030;
+margin-bottom:2px;
+cursor:pointer;
+    position:relative;
+}   
+
+label::after{
+    content:'+';
+    font-size:34px;
+    position:absolute;
+    right:10px;
+    width:500px;
+    text-align:right;
+
+}
+input[type="radio"]{
+    display:none;
+}
+.accordion .passage{background:#303030;
+text-align:right;
+padding:0 20px;
+max-height:0 ;
+ overflow:hidden;
+ line-height:550px;}
+ .foot{
+     text-align:center;
+ }
+ .footer .ref{
+     text-align:center;
+ }
+ .footer .fa{
+     text-align:left;
+ }
+ .trending select{
+     width:600px;
+     background-color:black;
+     color:white;
+
+ }
+ table{
+     height:150px;
+     width:cover;
+ }
+ table .monitor-logo {
+  width:50px;
+  height:50px;
+}
+table .download-logo{
+    width:50px;
+    height:50px;
+}
+table .watch-logo{
+    width:50px;
+    height:50px;
+}
+table .smile-logo{
+    width:50px;
+    height:50px;
+}
+.faq h4{
+text-align:left;
+}
+.slide-container{
+    paddding:0 4%;
+    position:relative;
+}
+.gallery {
+width:calc(15%-18px);
+display: flex;
+/flex-direction: row;/
+/flex-wrap: nowrap;/
+gap: 10px;
+/max-width:px;/
+/margin: 0 auto ;/
+/padding: 20px 10px;/
+/overflow-x:scroll;/
+z-index:1;
+height:200px;
+}
+.more h3{
+  text-align:left;
+}
+
+
+.gallery img {
+width: 100%;
+max-width: 200px;
+height: 220px;
+object-fit: cover;
+border-radius: 10px 10px 0 0;
+gap:10px;
+}
+
+
+.gallery::after {
+
+content: "";
+clear:both;
+width: 50px;
+display:table;
+
+}
+.foo p{
+  text-align:left;
+}
+
+.column {
+float: left;
+/~  width: 33.33%;/
+/padding: 5px;/
+
+}
+.box{
+align:center;
+width :112% ;
+height :85px;
+border:solid 5px rgb(248,200,222);
+border-color:#840303 transparent transparent transparent ;
+border-radius:50%/100px 100px 0 0;
+transform:translate(-50px);
+padding-top:5px;
+position:relative;
+top:-10px;
+left:1.5%;
+background:linear-gradient(rgba(0,0,200,0.1),rgba(0,0,200,0.1));
+background-color:black;
+}
+.link {
+   text-color:#fff;
+}
+.container {
+
+margin-left: 7%;
+
+margin-top: 10px;
+
+margin-left: 5%;
+
+margin-right: 5%;
+
+}
+
+.features{
+
+display: grid;
+
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+gap:20px;
+
+height: auto;
+
+}
+
+.feature {
+
+background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+
+padding: 1.5rem 1.5rem 6rem 1.5rem;
+
+border-radius: 10px;
+
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+height: 150px;
+
+text-align:right;
+
+}
+
+.feature h3 {
+
+margin-bottom: 10px;
+
+font-size: 1.25rem;
+
+color:#fff;
+
+margin-left: 0;
+
+font-weight: 500;
+
+}
+
+
+
+feature {
+
+background: linear-gradient(149deg, #192247 0%, #210617 96.86%);
+
+padding: 1.5rem 1.5rem 6rem 1.5rem;
+
+border-radius: 10px;
+
+box-shadow: 0 4px 8px
+
+rgba(0, 0, 0, 0.2);
+
+height: 150px;
+
+}
+
+.feature h3 {
+text-align:left;
+
+margin-bottom: 10px;
+
+font-size: 1.25rem;
+
+color: #fff;
+
+margin-left: 0;
+
+font-weight: 500;
+}
+
+.feature p {
+text-align:left;
+font-size: 14px;
+color: #b3b3b3;
+
+}
+
+
+
+.footer{
+
+color: #b3b3b3;
+
+text-decoration: underline;
+
+margin-top: 2.5rem;
+
+margin-left: 7%;
+
+margin-right: auto;
+
+}
+
+table a{
+
+height: 130px;
+
+border: 0;
+
+font-size: 14px;
+
+font-weight: 400;
+
+margin-bottom: auto;
+
+width: 900px;
+
+text-align: left;
+
+
+
+}
+
+.footer .link a{
+
+color: #b3b3b3;
+
+}
+
+.language(
+
+margin-top: 20px;
+
+}
+
+language select{
+
+padding: 5px;
+
+background-color: #000;
+
+color: #fff;
+
+border: 1px solid #fff;
+
+}
+
+language select:focus{
+outline: none
+
+}
+.noor:hover{transform:scale(1.1);}
